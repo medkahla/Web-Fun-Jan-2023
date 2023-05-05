@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="void" method="post">
+        First name: <input type="text"><br>
+        Last name: <input type="text"><br>
+        Email adress: <input type="text"><br>
+        Password: <input type="password"><br>
+        Confirm your password: <input type="password"><br>
+        Birthday: <input type="date"><br>
+        Gender Identity:<br>
+            <input type="radio" name="gender" value="male" id="M">
+            <label for="male"> Male</label>
+            <input type="radio" name="gender" value="female" id="f">
+            <label for="female"> Female</label>
+            <input type="radio" name="gender" value="noA" id="noA">
+            <label for="noA"> I prefer not to anwser</label><br>
+
+        A short discription about my self<br>
+        <textarea name="comment" cols="40" rows="5"></textarea><br>
+        Favorite Language:  <select name="" id="">
+                                <option value="l1">JavaScript</option>
+                                <option value="l2">Java</option>
+                                <option value="l3">C#</option>                            
+                            </select><br>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Yes, i would like to recive periodic email updates.</label><br>
+        <input type="submit" value="Create account">
+    </form>
+    <strong>* Indicates a required field</strong>
+</body>
+</html>
