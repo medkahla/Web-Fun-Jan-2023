@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    margin: 30%;
+    height: 300px;
+    width: 450px;
+    border: 4px solid gray;
+    display: block;
+}
+.info{
+    margin: 20px;
+    padding: 10px;
+}
+.bar img{
+    margin: 25px;
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.map{
+    height: 20px;
+    width: 10px;
+}
+.gear{
+    height: 15px;
+    width: 15px;
+}
+.bar{
+    height: 60px;
+    background-color: rgb(6, 106, 106);
+}
+.map, h2{
+    display: inline-flex;
+}
+a{
+    margin: 10px;
+    align-items: center;
+}
