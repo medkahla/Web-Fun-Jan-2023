@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    width: 20%;
+    height: 100%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    margin: 10px;
+    padding: 10px;
+}
+    ul{
+        display: inline-flex;
+        align-items: center;
+        justify-items: flex-end;
+        list-style-type: none;
+        margin: 30px;
+    }
+    .nav-title{
+        color: whitesmoke;
+        align-content: center;
+        margin-top: 20px;
+    }
+    ul a{
+        color: antiquewhite;
+        text-decoration: none;
+        margin: 5px;
+    }
+    .btn{
+        align-items: right;
+        background-color: rgb(87, 125, 165);
+        color: aliceblue;
+        border: 3px solid black;
+        padding: 5px;
+        box-shadow: 3px 3px black;
+        margin-right: 15px;
+    }
+    a.active{
+        color: azure;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+#main{
+    width: 70%;
+    height: 80%;
+    position: absolute;
+    left: 0;
+    margin: 20px;
+    display: inline block;
+}
+    #user{
+        margin: 5%;
+        height: 300px;
+        width: 450px;
+        border: 4px solid gray;
+        display: block;
+    }
+    .info{
+        margin: 20px;
+        padding: 10px;
+    }
+    .bar img{
+        margin: 25px;
+        border: 5px solid white;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+    }
+    .map{
+        height: 20px;
+        width: 10px;
+    }
+    .gear{
+        height: 15px;
+        width: 15px;
+    }
+    .bar{
+        height: 60px;
+        background-color: rgb(6, 106, 106);
+    }
+    .map, h2{
+        display: inline-flex;
+    }
+    .edit{
+        margin: 10px;
+        align-items: center;
+    }
+    #educ{
+        margin: 5%;
+        height: auto;
+        width: 450px;
+        border: 4px solid gray;
+    }
+    .bar2{
+        height: 60px;
+        background-color: rgb(69, 69, 69);
+    }
+    .bar2 h1{
+        color: whitesmoke;
+        padding: 10px;
+    }
+    .details{
+        margin: 10px;
+    }
+    h5{
+        color: slategray;
+        font-family: cursive;
+    }
+
+
+#sidebar{
+    width: 25%;
+    height: 80%;
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    display: inline-block;
+}
+    .sbcontainer{
+        border: 3px solid grey;
+        height: auto;
+        margin: 10px;
+    }
+    .titresb{
+        background-color: rgb(69, 69, 69);
+        color: whitesmoke;
+        padding: 5px;
+    }
+    .sbcontainer img{
+        height: 15px;
+        width: 15px;
+    }
+    .adds, .connections{
+        display: flex;
+        flex-direction: column;
+    }
+    span{
+        color: black;
+        background-color: rgb(179, 179, 179);
+        border-radius: 25%;
+    }
+
