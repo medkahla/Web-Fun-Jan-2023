@@ -51,9 +51,11 @@ body{
 }
 .word{
     /* position: left; */
+    display: block;
 }
 .def{
     /* position: right; */
+    display: block;
 }
 /* and for the side bar */
 .box1{
