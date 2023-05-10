@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body{
+    padding: 0;
+    margin: 0px 50px;
+}
+/* NavBar style */
+.nav-bar{
+    width: 100%;
+    height: auto;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar h1{
+    margin-left: 20px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.nav-bar input{
+    width: 30%;
+}
+.login{
+    margin-right: 20px;
+    background-color: blue;
+    box-shadow: 3px 3px 3px black;
+}
+/* for the body display */
+.container{
+    display: flex;
+}
+/* the main content */
+.main{
+    width: 65%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /* align-content: center; */
+    flex-direction: column;
+}
+.top, .bottom{
+    height: 250px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+    border: 5px solid black;
+}
+.word{
+    
+}
+.def{
+    
+}
+/* and for the side bar */
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.box1 span{
+    font-style: oblique ;
+}
+.box1 button{
+    background-color: aquamarine;
+    box-shadow: 5px 5px 5px black;
+}
