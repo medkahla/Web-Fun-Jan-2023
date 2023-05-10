@@ -50,10 +50,10 @@ body{
     border: 5px solid black;
 }
 .word{
-    
+    /* position: left; */
 }
 .def{
-    
+    /* position: right; */
 }
 /* and for the side bar */
 .box1{

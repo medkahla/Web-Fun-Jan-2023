@@ -13,5 +13,5 @@ function remAdd(){
 // alert on likes
 var likes = document.querySelector(".like")
 function alertLikes(){
-    alert("");
+    alert("Ninja was liked");
 }
